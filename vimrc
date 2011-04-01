@@ -1,0 +1,61 @@
+" Load Pathogen
+call pathogen#runtime_append_all_bundles()
+call pathogen#helptags()
+
+set nocompatible
+
+set backupdir=~/.vim/backup//
+set directory=~/.vim/swap//
+
+set number
+set ruler
+syntax on
+
+set wrap
+set cindent
+set tabstop=2
+set shiftwidth=2
+set expandtab
+set list listchars=tab:\ \ ,trail:¬
+set cursorline
+
+set backspace=2
+
+set hlsearch
+set incsearch
+set ignorecase
+set smartcase
+
+set statusline=%<%f\ %h%m%r%{fugitive#statusline()}%=0x%B\ %-14.(%l,%c%V%)\ %P
+set laststatus=2
+set history=1000
+
+filetype on
+filetype plugin on
+filetype indent on
+
+function! StripTrailingWhitespaces()
+  normal msHmtgg
+
+  %s/\s\+$//e
+
+  normal 'tzt`s
+endfunction
+
+function! FixIndent()
+  normal msHmtgg
+
+  normal gg=G
+
+  normal 'tzt`s
+endfunction
+
+let mapleader = ","
+
+map <Leader>n :NERDTreeToggle<CR>
+map <Leader>s :call StripTrailingWhitespaces()<CR>
+map <Leader>i :call FixIndent()<CR>
+
+if filereadable(expand("~/.vimrc.local"))
+  source ~/.vimrc.local
+endif
