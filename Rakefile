@@ -107,7 +107,7 @@ namespace :bundle do
 
   desc 'Install JavaScript utils'
   task :javascript do
-    install_bundle('https://github.com/hallettj/jslint.vim.git', :depends_on => 'node')
+    install_bundle('https://github.com/wookiehangover/jshint.vim.git', :depends_on => 'node')
     install_bundle('https://github.com/pangloss/vim-javascript.git')
   end
 

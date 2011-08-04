@@ -38,7 +38,7 @@ where name is the one you want to install.
 
 ### Included bundles
 
-- javascript: [jslint.vim](https://github.com/hallettj/jslint.vim) and [vim-javascript](https://github.com/pangloss/vim-javascript)
+- javascript: [jshint.vim](https://github.com/wookiehangover/jshint.vim) and [vim-javascript](https://github.com/pangloss/vim-javascript)
 - rails: [vim-rails](https://github.com/tpope/vim-rails) and [vim-ruby](https://github.com/vim-ruby/vim-ruby)
 
 ## Update
