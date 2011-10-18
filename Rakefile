@@ -91,7 +91,7 @@ namespace :bundle do
     install_bundle('https://github.com/mileszs/ack.vim.git', :depends_on => 'ack')
     install_bundle('https://github.com/wincent/Command-T.git') do
       if dependency_satisfied?('rvm')
-        system('rvm system ruby rake make')
+        system('rvm system do rake make')
       else
         system('rake make')
       end
