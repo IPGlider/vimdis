@@ -28,6 +28,7 @@ set smartcase
 
 set statusline=%<%f\ %h%m%r%{fugitive#statusline()}%=0x%B\ %-14.(%l,%c%V%)\ %P
 set laststatus=2
+set showcmd
 set history=1000
 
 filetype on
