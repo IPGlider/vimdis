@@ -30,11 +30,7 @@ def download_file_through_http(url, file, recursion_limit = 5)
 end
 
 def dependency_satisfied?(dep)
-  if system("which #{dep} > /dev/null 2>&1") && $?.exitstatus == 0
-    true
-  else
-    false
-  end
+  system("which #{dep} > /dev/null 2>&1") && $?.exitstatus == 0
 end
 
 def extract_name(repo)
