@@ -24,9 +24,9 @@ Follow this steps:
 - [snipmate-snippets](https://github.com/honza/snipmate-snippets)
 - [tlib_vim](https://github.com/tomtom/tlib_vim)
 - [vim-addon-mw-utils](https://github.com/MarcWeber/vim-addon-mw-utils)
-- [vim-autoclose](https://github.com/Townk/vim-autoclose)
 - [vim-fugitive](https://github.com/tpope/vim-fugitive)
 - [vim-git](https://github.com/tpope/vim-git)
+- [vim-smartinput](https://github.com/kana/vim-smartinput)
 - [vim-snipmate](https://github.com/garbas/vim-snipmate)
 - [vim-surround](https://github.com/tpope/vim-surround)
 
