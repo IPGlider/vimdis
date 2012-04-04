@@ -17,7 +17,7 @@ Follow this steps:
 
 - [ack.vim](https://github.com/mileszs/ack.vim)
 - [ctrlp.vim](https://github.com/kien/ctrlp.vim)
-- [molokai](https://github.com/vim-scripts/molokai)
+- [molokai](https://github.com/tomasr/molokai)
 - [nerdcommenter](https://github.com/scrooloose/nerdcommenter)
 - [nerdtree](https://github.com/scrooloose/nerdtree)
 - [pathogen](https://github.com/tpope/vim-pathogen)

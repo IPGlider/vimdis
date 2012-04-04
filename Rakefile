@@ -83,9 +83,9 @@ end
 namespace :bundle do
   desc 'Install basic utils'
   task :basic do
-    install_bundle('https://github.com/vim-scripts/molokai.git')
     install_bundle('https://github.com/mileszs/ack.vim.git', :depends_on => 'ack')
     install_bundle('https://github.com/kien/ctrlp.vim.git')
+    install_bundle('https://github.com/tomasr/molokai.git')
     install_bundle('https://github.com/scrooloose/nerdcommenter.git')
     install_bundle('https://github.com/scrooloose/nerdtree.git')
     install_bundle('https://github.com/honza/snipmate-snippets.git')
