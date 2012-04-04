@@ -25,6 +25,7 @@ Follow this steps:
 - [syntastic](https://github.com/scrooloose/syntastic)
 - [tlib_vim](https://github.com/tomtom/tlib_vim)
 - [vim-addon-mw-utils](https://github.com/MarcWeber/vim-addon-mw-utils)
+- [vim-easymotion](https://github.com/Lokaltog/vim-easymotion)
 - [vim-fugitive](https://github.com/tpope/vim-fugitive)
 - [vim-git](https://github.com/tpope/vim-git)
 - [vim-powerline](https://github.com/Lokaltog/vim-powerline)
