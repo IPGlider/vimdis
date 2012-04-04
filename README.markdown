@@ -16,7 +16,7 @@ Follow this steps:
 ### Included plugins
 
 - [ack.vim](https://github.com/mileszs/ack.vim)
-- [Command-T](https://github.com/wincent/Command-T)
+- [ctrlp.vim](https://github.com/kien/ctrlp.vim)
 - [molokai](https://github.com/vim-scripts/molokai)
 - [nerdcommenter](https://github.com/scrooloose/nerdcommenter)
 - [nerdtree](https://github.com/scrooloose/nerdtree)
@@ -59,6 +59,5 @@ If you want to update vimdis and delfault plugins:
 - `<Leader> + i` indent code
 - `<Leader> + n` toggle nerdtree
 - `<Leader> + s` strip trailing whitespaces
-- `<Leader> + t` show Command-T
 
 In `~/.vimrc.local` and `~/.gvimrc.local` you can put your own options.
