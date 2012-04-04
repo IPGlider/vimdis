@@ -26,6 +26,7 @@ Follow this steps:
 - [vim-addon-mw-utils](https://github.com/MarcWeber/vim-addon-mw-utils)
 - [vim-fugitive](https://github.com/tpope/vim-fugitive)
 - [vim-git](https://github.com/tpope/vim-git)
+- [vim-powerline](https://github.com/Lokaltog/vim-powerline)
 - [vim-smartinput](https://github.com/kana/vim-smartinput)
 - [vim-snipmate](https://github.com/garbas/vim-snipmate)
 - [vim-surround](https://github.com/tpope/vim-surround)
