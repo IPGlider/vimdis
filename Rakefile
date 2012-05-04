@@ -90,6 +90,7 @@ namespace :bundle do
     install_bundle('https://github.com/scrooloose/nerdtree.git')
     install_bundle('https://github.com/honza/snipmate-snippets.git')
     install_bundle('https://github.com/scrooloose/syntastic.git')
+    install_bundle('https://github.com/majutsushi/tagbar.git', :depends_on => 'ctags')
     install_bundle('https://github.com/tomtom/tlib_vim.git')
     install_bundle('https://github.com/MarcWeber/vim-addon-mw-utils.git')
     install_bundle('https://github.com/Lokaltog/vim-easymotion.git')

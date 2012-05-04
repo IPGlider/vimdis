@@ -23,6 +23,7 @@ Follow this steps:
 - [pathogen](https://github.com/tpope/vim-pathogen)
 - [snipmate-snippets](https://github.com/honza/snipmate-snippets)
 - [syntastic](https://github.com/scrooloose/syntastic)
+- [tagbar](https://github.com/majutsushi/tagbar)
 - [tlib_vim](https://github.com/tomtom/tlib_vim)
 - [vim-addon-mw-utils](https://github.com/MarcWeber/vim-addon-mw-utils)
 - [vim-easymotion](https://github.com/Lokaltog/vim-easymotion)
