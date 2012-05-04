@@ -63,5 +63,6 @@ If you want to update vimdis and delfault plugins:
 - `<Leader> + i` indent code
 - `<Leader> + n` toggle nerdtree
 - `<Leader> + s` strip trailing whitespaces
+- `<Leader> + t` toggle tagbar
 
 In `~/.vimrc.local` and `~/.gvimrc.local` you can put your own options.

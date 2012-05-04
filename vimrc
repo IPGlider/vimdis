@@ -55,6 +55,7 @@ let mapleader = ","
 map <Leader>n :NERDTreeToggle<CR>
 map <Leader>s :call StripTrailingWhitespaces()<CR>
 map <Leader>i :call FixIndent()<CR>
+map <Leader>t :TagbarToggle<CR>
 
 if filereadable(expand("~/.vimrc.local"))
   source ~/.vimrc.local
