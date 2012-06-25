@@ -107,6 +107,11 @@ namespace :bundle do
     install_bundle('https://github.com/pangloss/vim-javascript.git')
   end
 
+  desc 'Install Ragel utils'
+  task :ragel do
+    install_bundle('https://github.com/jayferd/ragel.vim.git')
+  end
+
   desc 'Install Rails utils'
   task :rails do
     install_bundle('https://github.com/tpope/vim-rails.git')
