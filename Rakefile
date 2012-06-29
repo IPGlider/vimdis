@@ -115,6 +115,10 @@ namespace :bundle do
   desc 'Install Rails utils'
   task :rails do
     install_bundle('https://github.com/tpope/vim-rails.git')
+  end
+
+  desc 'Install Ruby utils'
+  task :ruby do
     install_bundle('https://github.com/vim-ruby/vim-ruby.git')
   end
 end

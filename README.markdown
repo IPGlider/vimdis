@@ -47,7 +47,8 @@ where name is the one you want to install.
 
 - javascript: [vim-javascript](https://github.com/pangloss/vim-javascript)
 - ragel: [ragel.vim](https://github.com/jayferd/ragel.vim)
-- rails: [vim-rails](https://github.com/tpope/vim-rails) and [vim-ruby](https://github.com/vim-ruby/vim-ruby)
+- rails: [vim-rails](https://github.com/tpope/vim-rails)
+- ruby: [vim-ruby](https://github.com/vim-ruby/vim-ruby)
 
 ## Update
 
