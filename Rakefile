@@ -81,7 +81,6 @@ def install_bundle(repo, extra_options = {}, &block)
 end
 
 namespace :bundle do
-  desc 'Install basic utils'
   task :basic do
     install_bundle('https://github.com/mileszs/ack.vim.git', :depends_on => 'ack')
     install_bundle('https://github.com/kien/ctrlp.vim.git')
@@ -128,13 +127,11 @@ task :install => ['setup_environment', 'bundle:basic'] do
 
 end
 
-desc 'Setup environment'
 task :setup_environment => ['setup_environment:backup', 'setup_environment:link_config_files', 'setup_environment:create_dirs', 'setup_environment:install_pathogen'] do
 
 end
 
 namespace :setup_environment do
-  desc 'Backup old config files'
   task :backup do
     puts "\nBacking up old config files"
 
@@ -150,20 +147,17 @@ namespace :setup_environment do
     end
   end
 
-  desc 'Create dirs'
   task :create_dirs do
     %w(autoload backup bundle swap).each do |file|
       Dir.mkdir(file) unless File.exists?(file)
     end
   end
 
-  desc 'Install Pathogen'
   task :install_pathogen do
     puts "\nInstalling pathogen.vim"
     download_file_through_http('https://github.com/tpope/vim-pathogen/raw/master/autoload/pathogen.vim', 'autoload/pathogen.vim')
   end
 
-  desc 'Link config files'
   task :link_config_files do
     puts "\nLinking config files"
 
@@ -189,7 +183,6 @@ task :upgrade => ['upgrade:cleanup', 'install'] do
 end
 
 namespace :upgrade do
-  desc 'Cleanup repo'
   task :cleanup do
     system('git clean -dxf')
   end
