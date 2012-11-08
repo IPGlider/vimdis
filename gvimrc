@@ -1,5 +1,3 @@
-colorscheme molokai
-
 if has("gui_macvim")
   set guioptions-=r
   set guioptions-=l
