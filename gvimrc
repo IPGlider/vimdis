@@ -4,8 +4,6 @@ if has("gui_macvim")
   set guioptions-=R
   set guioptions-=L
   set guioptions-=T
-
-  set fuoptions=maxvert,maxhorz
 endif
 
 set columns=80
