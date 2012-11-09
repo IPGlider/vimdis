@@ -184,6 +184,6 @@ end
 
 namespace :upgrade do
   task :cleanup do
-    system('git clean -dxf')
+    system('git clean -dxff')
   end
 end
