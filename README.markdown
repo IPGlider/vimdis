@@ -30,7 +30,6 @@ Follow this steps:
 - [vim-easymotion](https://github.com/Lokaltog/vim-easymotion)
 - [vim-fugitive](https://github.com/tpope/vim-fugitive)
 - [vim-git](https://github.com/tpope/vim-git)
-- [vim-powerline](https://github.com/Lokaltog/vim-powerline)
 - [vim-snipmate](https://github.com/garbas/vim-snipmate)
 - [vim-surround](https://github.com/tpope/vim-surround)
 

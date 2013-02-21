@@ -96,7 +96,6 @@ namespace :bundle do
     install_bundle('https://github.com/Lokaltog/vim-easymotion.git')
     install_bundle('https://github.com/tpope/vim-fugitive.git')
     install_bundle('https://github.com/tpope/vim-git.git')
-    install_bundle('https://github.com/Lokaltog/vim-powerline.git')
     install_bundle('https://github.com/garbas/vim-snipmate.git')
     install_bundle('https://github.com/tpope/vim-surround.git')
   end
