@@ -26,6 +26,20 @@ set incsearch
 set ignorecase
 set smartcase
 
+set statusline=
+set statusline+=%<
+set statusline+=%f
+set statusline+=\ %h
+set statusline+=%m
+set statusline+=%r
+set statusline+=%y
+set statusline+=[%{&ff}]
+set statusline+=[%{strlen(&fenc)?&fenc:&enc}]
+set statusline+=%{fugitive#statusline()}
+set statusline+=%=
+set statusline+=0x%B
+set statusline+=\ L%l:C%c%V
+set statusline+=\ %P
 set laststatus=2
 set showcmd
 set history=1000
