@@ -15,7 +15,7 @@ Follow this steps:
 
 ### Included plugins
 
-- [ack.vim](https://github.com/mileszs/ack.vim)
+- [ag.vim](https://github.com/rking/ag.vim)
 - [ctrlp.vim](https://github.com/kien/ctrlp.vim)
 - [molokai](https://github.com/tomasr/molokai)
 - [nerdcommenter](https://github.com/scrooloose/nerdcommenter)

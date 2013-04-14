@@ -82,7 +82,7 @@ end
 
 namespace :bundle do
   task :basic do
-    install_bundle('https://github.com/mileszs/ack.vim.git', :depends_on => 'ack')
+    install_bundle('https://github.com/rking/ag.vim.git', :depends_on => 'ag')
     install_bundle('https://github.com/kien/ctrlp.vim.git')
     install_bundle('https://github.com/tomasr/molokai.git')
     install_bundle('https://github.com/scrooloose/nerdcommenter.git')
