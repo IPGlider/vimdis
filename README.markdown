@@ -21,7 +21,6 @@ Follow this steps:
 - [nerdcommenter](https://github.com/scrooloose/nerdcommenter)
 - [nerdtree](https://github.com/scrooloose/nerdtree)
 - [pathogen](https://github.com/tpope/vim-pathogen)
-- [snipmate-snippets](https://github.com/honza/snipmate-snippets)
 - [syntastic](https://github.com/scrooloose/syntastic)
 - [tagbar](https://github.com/majutsushi/tagbar)
 - [tlib_vim](https://github.com/tomtom/tlib_vim)
@@ -31,6 +30,7 @@ Follow this steps:
 - [vim-fugitive](https://github.com/tpope/vim-fugitive)
 - [vim-git](https://github.com/tpope/vim-git)
 - [vim-snipmate](https://github.com/garbas/vim-snipmate)
+- [vim-snippets](https://github.com/honza/vim-snippets)
 - [vim-surround](https://github.com/tpope/vim-surround)
 
 ## Language tools
