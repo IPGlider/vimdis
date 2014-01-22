@@ -2,8 +2,6 @@
 call pathogen#incubate()
 call pathogen#helptags()
 
-set nocompatible
-
 set backupdir=~/.vim/backup//
 set directory=~/.vim/swap//
 
@@ -44,7 +42,6 @@ set laststatus=2
 set showcmd
 set history=1000
 
-filetype on
 filetype plugin on
 filetype indent on
 
