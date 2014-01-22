@@ -134,7 +134,7 @@ namespace :setup_environment do
   task :backup do
     puts "\nBacking up old config files"
 
-    %w(.vimrc .gvimrc).each do |file|
+    %w(.vimrc).each do |file|
       src = File.expand_path("~/#{file}")
       dest = File.expand_path("~/#{file}.backup")
 
@@ -160,7 +160,7 @@ namespace :setup_environment do
   task :link_config_files do
     puts "\nLinking config files"
 
-    %w(vimrc gvimrc).each do |file|
+    %w(vimrc).each do |file|
       dest = File.expand_path("~/.#{file}")
 
       unless File.exist?(dest)

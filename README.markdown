@@ -66,4 +66,4 @@ If you want to update vimdis and delfault plugins:
 - `<Leader> + s` strip trailing whitespaces
 - `<Leader> + t` toggle tagbar
 
-In `~/.vimrc.local` and `~/.gvimrc.local` you can put your own options.
+In `~/.vimrc.local` you can put your own options.
