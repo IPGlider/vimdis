@@ -19,7 +19,6 @@ set directory=~/.vim/swap//
 " UI elements
 set cursorline
 set number
-set ruler
 set showcmd
 
 " Text formatting
