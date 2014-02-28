@@ -2,28 +2,41 @@
 call pathogen#incubate()
 call pathogen#helptags()
 
+colorscheme molokai
+
+syntax on
+filetype plugin on
+filetype indent on
+
+set backspace=2
+set history=1000
+set wrap
+
+" Create backup and swap files in one place
 set backupdir=~/.vim/backup//
 set directory=~/.vim/swap//
 
+" UI elements
+set cursorline
 set number
 set ruler
-syntax on
+set showcmd
 
-set wrap
+" Text formatting
 set cindent
-set tabstop=2
-set shiftwidth=2
 set expandtab
 set list listchars=tab:›\ ,trail:¬
-set cursorline
+set shiftwidth=2
+set tabstop=2
 
-set backspace=2
-
+" Search text
 set hlsearch
-set incsearch
 set ignorecase
+set incsearch
 set smartcase
 
+" Status line
+set laststatus=2
 set statusline=
 set statusline+=%<
 set statusline+=%f
@@ -38,14 +51,6 @@ set statusline+=%=
 set statusline+=0x%B
 set statusline+=\ L%l:C%c%V
 set statusline+=\ %P
-set laststatus=2
-set showcmd
-set history=1000
-
-filetype plugin on
-filetype indent on
-
-colorscheme molokai
 
 function! StripTrailingWhitespaces()
   normal msHmtgg
