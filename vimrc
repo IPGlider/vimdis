@@ -32,7 +32,6 @@ set tabstop=2
 set hlsearch
 set ignorecase
 set incsearch
-set smartcase
 
 " Status line
 set laststatus=2
