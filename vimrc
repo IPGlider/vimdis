@@ -26,6 +26,7 @@ set cindent
 set expandtab
 set list listchars=tab:›\ ,trail:¬
 set shiftwidth=2
+set softtabstop=2
 set tabstop=2
 
 " Search text
