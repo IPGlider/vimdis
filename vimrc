@@ -1,5 +1,5 @@
 " Load Pathogen
-call pathogen#incubate()
+call pathogen#infect()
 call pathogen#helptags()
 
 colorscheme molokai
