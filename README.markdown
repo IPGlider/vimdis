@@ -23,12 +23,8 @@ Follow this steps:
 - [pathogen](https://github.com/tpope/vim-pathogen)
 - [syntastic](https://github.com/scrooloose/syntastic)
 - [tagbar](https://github.com/majutsushi/tagbar)
-- [tlib_vim](https://github.com/tomtom/tlib_vim)
-- [vim-addon-mw-utils](https://github.com/MarcWeber/vim-addon-mw-utils)
 - [vim-fugitive](https://github.com/tpope/vim-fugitive)
 - [vim-git](https://github.com/tpope/vim-git)
-- [vim-snipmate](https://github.com/garbas/vim-snipmate)
-- [vim-snippets](https://github.com/honza/vim-snippets)
 - [vim-surround](https://github.com/tpope/vim-surround)
 
 ## Language tools
