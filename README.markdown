@@ -42,6 +42,8 @@ where name is the one you want to install.
 - ragel: [ragel.vim](https://github.com/jayferd/ragel.vim)
 - rails: [vim-rails](https://github.com/tpope/vim-rails)
 - ruby: [vim-ruby](https://github.com/vim-ruby/vim-ruby)
+- nodejs: [vim-node](https://github.com/moll/vim-node)
+  - [vim-mustache-handlebars](https://github.com/mustache/vim-mustache-handlebars)
 
 ## Update
 
