@@ -171,12 +171,14 @@ task :update do
 end
 
 desc 'Upgrade vimdis'
-task :upgrade => ['upgrade:cleanup', 'install'] do
-
+task :upgrade  do
+  Dir['bundle/*/'].map {|dir|
+    if File.directory? dir and File.exists?(dir + "/.git")
+      print "Upgrading #{dir}... "
+      Dir.chdir(dir) do
+        system('git pull')
+      end
+    end
+  }
 end
 
-namespace :upgrade do
-  task :cleanup do
-    system('git clean -dxff')
-  end
-end
