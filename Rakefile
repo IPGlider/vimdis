@@ -86,7 +86,6 @@ namespace :bundle do
     install_bundle('https://github.com/kien/ctrlp.vim.git')
     install_bundle('https://github.com/tomasr/molokai.git')
     install_bundle('https://github.com/scrooloose/nerdcommenter.git')
-    install_bundle('https://github.com/scrooloose/nerdtree.git')
     install_bundle('https://github.com/scrooloose/syntastic.git')
     install_bundle('https://github.com/majutsushi/tagbar.git', :depends_on => 'ctags')
     install_bundle('https://github.com/tpope/vim-fugitive.git')

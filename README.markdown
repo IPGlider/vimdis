@@ -19,7 +19,6 @@ Follow this steps:
 - [ctrlp.vim](https://github.com/kien/ctrlp.vim)
 - [molokai](https://github.com/tomasr/molokai)
 - [nerdcommenter](https://github.com/scrooloose/nerdcommenter)
-- [nerdtree](https://github.com/scrooloose/nerdtree)
 - [pathogen](https://github.com/tpope/vim-pathogen)
 - [syntastic](https://github.com/scrooloose/syntastic)
 - [tagbar](https://github.com/majutsushi/tagbar)
@@ -58,7 +57,6 @@ If you want to update vimdis and delfault plugins:
 
 - `<Leader>` is mapped to `,`
 - `<Leader> + i` indent code
-- `<Leader> + n` toggle nerdtree
 - `<Leader> + s` strip trailing whitespaces
 - `<Leader> + t` toggle tagbar
 
