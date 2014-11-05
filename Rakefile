@@ -91,6 +91,7 @@ namespace :bundle do
     install_bundle('https://github.com/tpope/vim-fugitive.git')
     install_bundle('https://github.com/tpope/vim-git.git')
     install_bundle('https://github.com/tpope/vim-surround.git')
+    install_bundle('https://github.com/tpope/vim-vinegar.git')
   end
 
   desc 'Install JavaScript utils'

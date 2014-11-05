@@ -25,6 +25,7 @@ Follow this steps:
 - [vim-fugitive](https://github.com/tpope/vim-fugitive)
 - [vim-git](https://github.com/tpope/vim-git)
 - [vim-surround](https://github.com/tpope/vim-surround)
+- [vim-vinegar](https://github.com/tpope/vim-vinegar)
 
 ## Language tools
 
