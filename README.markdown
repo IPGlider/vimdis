@@ -17,6 +17,7 @@ Follow this steps:
 
 - [ag.vim](https://github.com/rking/ag.vim)
 - [ctrlp.vim](https://github.com/kien/ctrlp.vim)
+- [minibufexpl.vim](https://github.com/fholgado/minibufexpl.vim)
 - [molokai](https://github.com/tomasr/molokai)
 - [nerdcommenter](https://github.com/scrooloose/nerdcommenter)
 - [pathogen](https://github.com/tpope/vim-pathogen)

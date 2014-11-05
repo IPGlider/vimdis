@@ -84,6 +84,7 @@ namespace :bundle do
   task :basic do
     install_bundle('https://github.com/rking/ag.vim.git', :depends_on => 'ag')
     install_bundle('https://github.com/kien/ctrlp.vim.git')
+    install_bundle('https://github.com/fholgado/minibufexpl.vim.git')
     install_bundle('https://github.com/tomasr/molokai.git')
     install_bundle('https://github.com/scrooloose/nerdcommenter.git')
     install_bundle('https://github.com/scrooloose/syntastic.git')
