@@ -61,5 +61,8 @@ If you want to update vimdis and delfault plugins:
 - `<Leader> + i` indent code
 - `<Leader> + s` strip trailing whitespaces
 - `<Leader> + t` toggle tagbar
+- `<Leader> + b` toggle minibufexpl
+- `<Leader> + n` next buffer
+- `<Leader> + p` previous buffer
 
 In `~/.vimrc.local` you can put your own options.

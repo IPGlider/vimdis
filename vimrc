@@ -72,11 +72,16 @@ let mapleader = ","
 map <Leader>s :call StripTrailingWhitespaces()<CR>
 map <Leader>i :call FixIndent()<CR>
 map <Leader>t :TagbarToggle<CR>
+map <Leader>b :MBEToggle<CR>
+map <Leader>n :MBEbn<CR>
+map <Leader>p :MBEbp<CR>
 
 noremap <Up> <NOP>
 noremap <Down> <NOP>
 noremap <Left> <NOP>
 noremap <Right> <NOP>
+
+let g:miniBufExplBuffersNeeded = 0
 
 if filereadable(expand("~/.vimrc.local"))
   source ~/.vimrc.local
