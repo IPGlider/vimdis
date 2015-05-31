@@ -53,7 +53,6 @@ If you want to update vimdis and delfault plugins:
 1. `cd ~/.vim`
 2. `rake update`
 3. `rake upgrade`
-4. Install the bundles you want
 
 ## More
 
